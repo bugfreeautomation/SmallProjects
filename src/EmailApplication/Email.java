@@ -13,7 +13,9 @@ public class Email {
 	private String password;
 	private static HashMap<String, String> hmap;
 
-	private final static int SIZE = 100;
+	private final static int MAILBOX_SIZE = 100;
+
+	
 
 	public Email(String firstname, String lastname, String department) {
 		super();
@@ -107,4 +109,11 @@ public class Email {
 		return hmap;
 
 	}
+	
+	
+	
+	public static int getMailboxSize() {
+		return MAILBOX_SIZE;
+	}
+
 }

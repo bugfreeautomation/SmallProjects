@@ -29,6 +29,11 @@ public class Main {
 		
 		//verify neha's password is updated
 		e4.getAllAccounts();
+		
+		
+		//get mailbox capacity
+		
+		System.out.println(Email.getMailboxSize());
 
 
 	}
